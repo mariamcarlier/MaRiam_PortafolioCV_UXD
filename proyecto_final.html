@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <!-- 
+    ========================================
+    METADATOS ESENCIALES
+    ========================================
+    -->
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO Básico -->
+  <title>Diego De Granda - Mi Perfil Personal | Desarrollador Web en Formación</title>
+  <meta name="description"
+    content="Perfil personal de Diego De Granda. Desarrollador Web en formación aprendiendo HTML, CSS y las mejores prácticas del desarrollo web moderno.">
+  <meta name="keywords" content="perfil personal, desarrollador web, portfolio, HTML, CSS, desarrollo web">
+  <meta name="author" content="Diego De Granda">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph para Redes Sociales -->
+  <meta property="og:title" content="Diego De Granda - Mi Perfil Personal">
+  <meta property="og:description"
+    content="Descubre mi viaje aprendiendo desarrollo web, mis proyectos y mi pasión por la tecnología.">
+  <meta property="og:image" content="https://miperfilpersonal.com/assets/images/og-preview.jpg">
+  <meta property="og:url" content="https://miperfilpersonal.com">
+  <meta property="og:type" content="profile">
+  <meta property="og:site_name" content="Mi Perfil Personal">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Diego De Granda - Desarrollador Web">
+  <meta name="twitter:description" content="Mi perfil personal como desarrollador web en formación">
+  <meta name="twitter:image" content="https://miperfilpersonal.com/assets/images/twitter-card.jpg">
+  <meta name="twitter:creator" content="@diegodegranda_dev">
+
+  <!-- URLs Canónicas -->
+  <link rel="canonical" href="https://miperfilpersonal.com/">
+  <link rel="alternate" hreflang="es" href="https://miperfilpersonal.com/es/">
+  <link rel="alternate" hreflang="en" href="https://miperfilpersonal.com/en/">
+
+  <!-- Favicons -->
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+</head>
+
+<body>
+  <!-- 
+    ========================================
+    HEADER PRINCIPAL
+    ========================================
+    -->
+
+  <header role="banner">
+    <!-- Logo y Marca Personal -->
+    <div class="brand">
+      <a href="/" aria-label="Mi Perfil Personal - Inicio">
+        <img src="/assets/icons/perfil-logo.svg" alt="Mi Perfil Personal" width="48" height="48">
+        <span>Mi Perfil Personal</span>
+      </a>
+    </div>
+
+    <!-- Navegación Principal -->
+    <nav aria-label="Navegación principal">
+      <ul>
+        <li><a href="/" aria-current="page">Inicio</a></li>
+        <li><a href="/sobre-mi.html">Sobre mí</a></li>
+        <li><a href="/habilidades.html">Habilidades</a></li>
+        <li><a href="/proyectos.html">Proyectos</a></li>
+        <li><a href="/blog.html">Blog</a></li>
+        <li><a href="/contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+
+    <!-- Acciones Rápidas -->
+    <div class="header-actions">
+      <a href="/assets/documents/cv-diego-degranda.pdf" download aria-label="Descargar CV en PDF">
+        📄 CV
+      </a>
+
+      <!-- Selector de Idioma -->
+      <select aria-label="Seleccionar idioma">
+        <option value="es" selected>ES</option>
+        <option value="en">EN</option>
+      </select>
+    </div>
+  </header>
+
+  <!-- 
+    ========================================
+    CONTENIDO PRINCIPAL
+    ========================================
+    -->
+
+  <main id="contenido-principal" role="main">
+
+    <!-- Hero Section -->
+    <section aria-labelledby="hero-titulo">
+      <h1 id="hero-titulo">¡Hola! Soy Diego De Granda</h1>
+      <p><strong>Desarrollador Web en Formación</strong></p>
+      <p>
+        Estoy aprendiendo HTML y CSS para crear sitios web hermosos
+        y funcionales. Mi pasión: transformar ideas en experiencias
+        web increíbles.
+      </p>
+
+      <!-- Call to Actions -->
+      <div class="hero-actions">
+        <a href="#proyectos-destacados">Ver Mis Proyectos</a>
+        <a href="/contacto.html">Contáctame</a>
+      </div>
+
+      <!-- Estadísticas Rápidas -->
+      <div class="hero-stats">
+        <div>
+          <data value="6">6+</data>
+          <span>Meses aprendiendo</span>
+        </div>
+        <div>
+          <data value="3">3+</data>
+          <span>Proyectos completados</span>
+        </div>
+        <div>
+          <data value="5">5+</data>
+          <span>Tecnologías</span>
+        </div>
+      </div>
+
+      <!-- Imagen de Perfil -->
+      <figure>
+        <picture>
+          <source media="(min-width: 768px)" srcset="/assets/images/perfil/diego-desktop.webp" type="image/webp">
+          <source media="(min-width: 768px)" srcset="/assets/images/perfil/diego-desktop.jpg">
+          <img src="/assets/images/perfil/diego-mobile.jpg" alt="Diego De Granda - Desarrollador Web en Formación"
+            width="500" height="500" loading="eager">
+        </picture>
+        <figcaption>Diego De Granda en su espacio de trabajo</figcaption>
+      </figure>
+    </section>
+
+    <!-- Sección Sobre Mí -->
+    <section aria-labelledby="about-titulo">
+      <h2 id="about-titulo">Mi Viaje en el Desarrollo Web</h2>
+
+      <p>
+        Soy <strong>desarrollador web en formación</strong>,
+        actualmente aprendiendo HTML y CSS para crear sitios
+        web hermosos y funcionales.
+      </p>
+
+      <p>
+        Me apasiona la tecnología y el diseño. Cada día descubro
+        nuevas formas de mejorar mis habilidades y crear
+        <em>mejores experiencias web</em>.
+      </p>
+
+      <blockquote>
+        <p>
+          "El buen diseño es obvio. El gran diseño es transparente.
+          Mi objetivo es crear sitios web que sean ambos: bellos
+          y funcionales."
+        </p>
+        <cite>— Mi filosofía de aprendizaje</cite>
+      </blockquote>
+
+      <!-- Valores Personales -->
+      <h3>Mis Valores</h3>
+      <dl>
+        <dt>🎯 Dedicación</dt>
+        <dd>Comprometido con mi aprendizaje diario</dd>
+
+        <dt>📚 Curiosidad</dt>
+        <dd>Siempre explorando nuevas tecnologías</dd>
+
+        <dt>🤝 Comunidad</dt>
+        <dd>Aprendiendo y compartiendo con otros</dd>
+
+        <dt>💡 Creatividad</dt>
+        <dd>Buscando soluciones innovadoras</dd>
+      </dl>
+
+      <a href="/sobre-mi.html">
+        Conoce más sobre mí →
+      </a>
+    </section>
+
+    <!-- Proyectos Destacados -->
+    <section id="proyectos-destacados" aria-labelledby="projects-titulo">
+      <h2 id="projects-titulo">Mis Proyectos de Práctica</h2>
+      <p>
+        Cada proyecto representa mi progreso aprendiendo desarrollo web.
+        Desde páginas simples hasta este portfolio completo.
+      </p>
+
+      <!-- Proyecto 1 -->
+      <article>
+        <figure>
+          <picture>
+            <source type="image/webp" srcset="/assets/images/proyectos/primer-sitio.webp">
+            <img src="/assets/images/proyectos/primer-sitio.jpg" alt="Captura de mi primer sitio web con HTML y CSS"
+              width="800" height="600" loading="lazy">
+          </picture>
+          <figcaption>Mi Primer Sitio Web - HTML y CSS básico</figcaption>
+        </figure>
+
+        <h3>Mi Primer Sitio Web</h3>
+        <p>
+          Mi primer proyecto completo usando HTML y CSS. Una página
+          simple pero bien estructurada donde apliqué los conceptos
+          básicos aprendidos.
+        </p>
+
+        <h4>Lo que aprendí:</h4>
+        <ul>
+          <li>🎯 Estructura semántica de HTML</li>
+          <li>📊 Box Model y layout básico</li>
+          <li>🎨 Estilos CSS fundamentales</li>
+          <li>♿ Principios básicos de accesibilidad</li>
+          <li>📱 Introducción al diseño responsivo</li>
+        </ul>
+
+        <h4>Tecnologías usadas:</h4>
+        <ul>
+          <li>HTML5</li>
+          <li>CSS3</li>
+        </ul>
+
+        <h4>Logros del proyecto:</h4>
+        <div>
+          <data value="100">100%</data> HTML válido
+        </div>
+        <div>
+          <data value="0">0</data> Errores de accesibilidad
+        </div>
+        <div>
+          <data value="95">95</data> Score en Lighthouse
+        </div>
+
+        <a href="/proyectos/primer-sitio.html">
+          Ver detalles del proyecto
+        </a>
+        <a href="https://demo.miprimer-sitio.com" target="_blank" rel="noopener">
+          Ver demo ↗
+        </a>
+      </article>
+
+      <a href="/proyectos.html">
+        Ver todos los proyectos →
+      </a>
+    </section>
+
+    <!-- Habilidades Técnicas -->
+    <section aria-labelledby="skills-titulo">
+      <h2 id="skills-titulo">Mis Habilidades</h2>
+
+      <h3>Tecnologías que estoy aprendiendo</h3>
+      <ul>
+        <li>
+          <img src="/assets/icons/html5.svg" alt="" width="40" height="40" aria-hidden="true">
+          <span>HTML5 & Semántica</span>
+          <progress value="75" max="100" aria-label="75% de dominio">
+            75%
+          </progress>
+        </li>
+        <li>
+          <img src="/assets/icons/css3.svg" alt="" width="40" height="40" aria-hidden="true">
+          <span>CSS3 & Diseño</span>
+          <progress value="60" max="100" aria-label="60% de dominio">
+            60%
+          </progress>
+        </li>
+        <li>
+          <img src="/assets/icons/javascript.svg" alt="" width="40" height="40" aria-hidden="true">
+          <span>JavaScript (Comenzando)</span>
+          <progress value="20" max="100" aria-label="20% de dominio">
+            20%
+          </progress>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Blog Reciente -->
+    <section aria-labelledby="blog-titulo">
+      <h2 id="blog-titulo">Mi Blog de Aprendizaje</h2>
+      <p>
+        Comparto mi experiencia aprendiendo desarrollo web.
+      </p>
+
+      <!-- Artículo 1 -->
+      <article>
+        <time datetime="2025-01-15">15 Enero 2025</time>
+        <h3>
+          <a href="/blog/mi-primer-mes.html">
+            Mi Primer Mes Aprendiendo HTML
+          </a>
+        </h3>
+        <p>
+          Reflexiones sobre lo que aprendí en mi primer mes
+          estudiando desarrollo web.
+        </p>
+        <span>📖 5 min de lectura</span>
+      </article>
+
+      <!-- Artículo 2 -->
+      <article>
+        <time datetime="2025-01-08">8 Enero 2025</time>
+        <h3>
+          <a href="/blog/recursos-utiles.html">
+            5 Recursos Gratuitos para Aprender HTML
+          </a>
+        </h3>
+        <p>
+          Los mejores recursos que encontré para estudiar
+          desarrollo web desde cero.
+        </p>
+        <span>📖 3 min de lectura</span>
+      </article>
+
+      <a href="/blog.html">
+        Ver todos los artículos →
+      </a>
+    </section>
+
+    <!-- Call to Action -->
+    <section aria-labelledby="cta-titulo">
+      <h2 id="cta-titulo">¿Te gustaría conectar?</h2>
+      <p>
+        Siempre estoy buscando aprender de otros desarrolladores,
+        compartir experiencias y tal vez colaborar en proyectos
+        interesantes.
+      </p>
+
+      <div>
+        <h3>🚀 Proyectos de Práctica</h3>
+        <p>¿Tienes una idea? Colaboremos y aprendamos juntos</p>
+        <a href="/contacto.html#colaborar">Colaborar</a>
+      </div>
+
+      <div>
+        <h3>💬 Conectemos</h3>
+        <p>¿Eres principiante también? Aprendamos juntos</p>
+        <a href="/contacto.html#conectar">Conectar</a>
+      </div>
+
+      <div>
+        <h3>📚 Recursos</h3>
+        <p>Compartamos recursos y tips de aprendizaje</p>
+        <a href="/contacto.html#recursos">Compartir</a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- 
+    ========================================
+    FOOTER COMPLETO
+    ========================================
+    -->
+
+  <footer role="contentinfo">
+    <!-- Sobre Mi Perfil Personal -->
+    <section aria-labelledby="footer-about">
+      <h2 id="footer-about">Mi Perfil Personal</h2>
+      <p>
+        Portfolio personal de Diego De Granda.
+        Aprendiendo desarrollo web un día a la vez.
+      </p>
+
+      <!-- Newsletter -->
+      <form action="/newsletter" method="POST">
+        <label for="newsletter-email">
+          Suscríbete a mi newsletter
+        </label>
+        <input type="email" id="newsletter-email" name="email" placeholder="tu@email.com" required aria-required="true">
+        <button type="submit">Suscribir</button>
+      </form>
+    </section>
+
+    <!-- Enlaces del Footer -->
+    <nav aria-label="Enlaces del footer">
+      <ul>
+        <li><a href="/">Inicio</a></li>
+        <li><a href="/sobre-mi.html">Sobre mí</a></li>
+        <li><a href="/proyectos.html">Proyectos</a></li>
+        <li><a href="/blog.html">Blog</a></li>
+        <li><a href="/contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+
+    <!-- Contacto -->
+    <section aria-labelledby="footer-contact">
+      <h2 id="footer-contact">Contacto</h2>
+      <address>
+        <dl>
+          <dt>Email:</dt>
+          <dd>
+            <a href="mailto:diego@miperfilpersonal.com">
+              diego@miperfilpersonal.com
+            </a>
+          </dd>
+
+          <dt>LinkedIn:</dt>
+          <dd>
+            <a href="https://linkedin.com/in/diego-degranda-dev" target="_blank" rel="noopener">
+              /in/diego-degranda-dev
+            </a>
+          </dd>
+
+          <dt>GitHub:</dt>
+          <dd>
+            <a href="https://github.com/diegodegranda" target="_blank" rel="noopener">
+              @diegodegranda
+            </a>
+          </dd>
+
+          <dt>Ubicación:</dt>
+          <dd>Ciudad de México, México</dd>
+        </dl>
+      </address>
+    </section>
+
+    <!-- Redes Sociales -->
+    <section aria-labelledby="footer-social">
+      <h2 id="footer-social">Sígueme</h2>
+      <ul>
+        <li>
+          <a href="https://github.com/diegodegranda" target="_blank" rel="noopener"
+            aria-label="GitHub de Diego De Granda">
+            GitHub
+          </a>
+        </li>
+        <li>
+          <a href="https://twitter.com/diegodegranda_dev" target="_blank" rel="noopener"
+            aria-label="Twitter de Diego De Granda">
+            Twitter
+          </a>
+        </li>
+        <li>
+          <a href="https://linkedin.com/in/diego-degranda-dev" target="_blank" rel="noopener"
+            aria-label="LinkedIn de Diego De Granda">
+            LinkedIn
+          </a>
+        </li>
+      </ul>
+
+      <!-- Descargas -->
+      <a href="/assets/documents/cv-diego-degranda.pdf" download>
+        📄 Descargar mi CV (PDF)
+      </a>
+    </section>
+
+    <!-- Footer Bottom -->
+    <div>
+      <p>&copy; 2025 Diego De Granda - Mi Perfil Personal. Todos los derechos reservados.</p>
+
+      <nav aria-label="Enlaces legales">
+        <a href="/privacidad.html">Privacidad</a>
+        <a href="/terminos.html">Términos</a>
+        <a href="/accesibilidad.html">Accesibilidad</a>
+      </nav>
+
+      <p>
+        Diseñado y desarrollado con ❤️ por Diego De Granda
+      </p>
+    </div>
+  </footer>
+</body>
+
+</html>
