@@ -4,21 +4,25 @@
    + JetBrains Mono (datos/stats). Modo claro/oscuro vía variables CSS.
    ========================================================================== */
 
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500;600&family=Montecarlo&display=swap');
 
 /* ---------- Tokens ---------- */
 :root {
-  --bg: #F4F5F7;
-  --surface: #FFFFFF;
-  --surface-2: #E9EBEF;
-  --text: #14171A;
-  --text-muted: #565B66;
-  --border: #DCDFE4;
-  --accent: #2D5BFF;
-  --accent-2: #FFB020;
-  --accent-contrast: #FFFFFF;
+  --bg: #fbecf8; /* Tipo background color / Color de fondo claro por defecto */
+  /* Primer nivel de contenedores (tarjetas, secciones) */
+  --surface: #e9d5e6; 
+  /* Segundo nivel para destacar elementos dentro de las tarjetas */
+  --surface-2: #e8ccd8;
+  --text: #18191d;
+  --text-muted: #865374;
+  --border: #e4dce3;
+
+  --accent: #CC8899;
+  --accent-2: #efcad0;
+  --accent-contrast:#FFF1F3;
   --shadow: 0 8px 24px rgba(20, 23, 26, 0.08);
 
+  /* Fuentes para textos titulares  */
   --font-display: 'Space Grotesk', 'Segoe UI', sans-serif;
   --font-body: 'Inter', 'Segoe UI', sans-serif;
   --font-mono: 'JetBrains Mono', monospace;
@@ -31,14 +35,14 @@
 }
 
 html[data-theme='dark'] {
-  --bg: #0B0D12;
-  --surface: #14171F;
-  --surface-2: #1B1F29;
-  --text: #F4F5F7;
-  --text-muted: #9BA1AC;
-  --border: #262B36;
-  --accent: #6E8CFF;
-  --accent-2: #FFC24B;
+  --bg: #3F303D;
+  --surface: #372D36;
+  --surface-2: #241A22;
+  --text: #fffcfc;
+  --text-muted: #ffe1e7;
+  --border: #433241;
+  --accent: #CC8899;
+  --accent-2: #efcad0;
   --accent-contrast: #0B0D12;
   --shadow: 0 8px 28px rgba(0, 0, 0, 0.45);
 
