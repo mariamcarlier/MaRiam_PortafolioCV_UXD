@@ -1,0 +1,10 @@
+body {
+text-align: center;
+background-color: #f7f3f9;
+        }
+
+.album-title {
+font-family: 'Shadows Into Light', 'Caveat', 'Comic Sans MS', cursive;
+font-size: 3.5rem;
+color: #8a2be2;
+        }
